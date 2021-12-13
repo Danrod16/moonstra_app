@@ -194,6 +194,17 @@ If you are joining the team and wish to contribute please follow three simple ph
 2) Descriptive pull requests using the built in template, and no one merges their own requests
 3) Follow any and all design patterns or philosophies when available
 
+## Git-Rules
+1) Label your commits with a prefix: (Init, Fix, Hotfix, Feat)
+2) For Important fixes open an issue on github --> Add issue ID to branch name ej: #89_fix_homepage
+3) Always request peer review, never merge yourself
+4) Never push to Master
+
+## Coding good practices
+1) CLASS: Maximum lines 100 (if more, create a helper/service)
+2) METHODS: Maximum 5 lines
+3) Create tests Rspec
+
 
 ## License
 🛑 TODO: PLEASE REPLACE AND/OR MODIFY

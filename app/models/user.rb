@@ -8,6 +8,7 @@ class User < ApplicationRecord
   validates :last_name ,presence: true
   validates :role ,presence: true
   validates :team_role ,presence: true
+  has_many :teams_projects, through: :project_members
   ROLES = ["admin", "regular"]
   TEAM_ROLES = ["commander", "astronaut"]
 
